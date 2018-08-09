@@ -8,9 +8,9 @@ import { ProductComponent } from './supplierproduct/product/product.component';
 const routes:Routes=[
   { path: '', component: SupplierproductComponent,
   children:[
-    {path:'supplier',component: SupplierComponent},
-    {path:'credential',component: CredentialComponent},
-    {path:'product',component: ProductComponent},
+    { path:'supplier',component: SupplierComponent},
+    { path:'credential',component: CredentialComponent},
+    { path:'product',component: ProductComponent},
   ]
 },
 
